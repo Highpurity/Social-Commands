@@ -1,16 +1,17 @@
-name: Socials Commands
+name: SocialsCommands
 version: '${project.version}'
 main: highpurity.socals.commands.socialscommands.SocialsCommands
 api-version: 1.18
 prefix: SC
 load: STARTUP
-authors: [ Highpurity ]
+authors: [Highpurity]
 description: Plugin that allows you to showcase your socials!
 website: https://highpurity.cc
 Commands:
-  youtube:
+  YouTube:
     description: Customizable command that shows your YouTube Channel!
     usage: /<command>
     permission: socialcmd.youtube
     permission-message: "\u00a74You lack the permissions to use this command!"
+
 

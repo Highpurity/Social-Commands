@@ -12,11 +12,12 @@ import org.bukkit.plugin.java.JavaPlugin;
             public void onEnable() {
                 System.out.print(ChatColor.GREEN + "SocialCommands is starting!");
 
-                getCommand("youtube").setExecutor(new YouTube());
 
                 getConfig().options().copyDefaults();
 
                 saveDefaultConfig();
+
+                getCommand("YouTube").setExecutor(new YouTube());
 
     }
 

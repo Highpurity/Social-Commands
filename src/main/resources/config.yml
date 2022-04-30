@@ -1,16 +1,9 @@
-Server Name
-//Changes what is shown whenever your players run one of the commands included in this plugin.
+# Server Name
+# Changes what is shown whenever your players run one of the commands included in this plugin.
 Name: ''
-
-
-Modules
-//toggle on or off the different aspects of this plugin!
-
+# Modules
+# toggle on or off the different aspects of this plugin!
 Youtube: ''
-
-
-
-Configuration
-//change the different modules of this plugin!
-
+# Configuration
+# Change the different modules of this plugin!
 Youtube-Link: ''

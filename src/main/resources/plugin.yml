@@ -7,11 +7,21 @@ load: STARTUP
 authors: [Highpurity]
 description: Plugin that allows you to showcase your socials!
 website: https://highpurity.cc
-Commands:
+commands:
   YouTube:
     description: Customizable command that shows your YouTube Channel!
     usage: /<command>
     permission: socialcmd.youtube
+    permission-message: "\u00a74You lack the permissions to use this command!"
+  ScReload:
+    description: Reloads the plugin's configuration file
+    usage: /<command>
+    permission: socialcmd.reload
+    permission-message: "\u00a74You lack the permissions to use this command!"
+  Twitch:
+    description: Customizable command that shows your Twitch Channel!
+    usage: /<command>
+    permission: socialcmd.twitch
     permission-message: "\u00a74You lack the permissions to use this command!"
 
 

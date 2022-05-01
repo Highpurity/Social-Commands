@@ -3,7 +3,11 @@
 Name: ''
 # Modules
 # toggle on or off the different aspects of this plugin!
-Youtube: ''
+Youtube: true
+Twitch: true
+Discord: true
 # Configuration
 # Change the different modules of this plugin!
 Youtube-Link: ''
+Twitch-Link: ''
+Discord-Link: ''

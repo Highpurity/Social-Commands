@@ -5,30 +5,32 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
-public class YouTube implements CommandExecutor {
+public class Twitter implements CommandExecutor {
 
     private final SocialsCommands plugin;
 
-    public YouTube(SocialsCommands plugin) {
+    public Twitter(SocialsCommands plugin) {
         this.plugin = plugin;
     }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if (plugin.getConfig().getBoolean("Youtube")) {
+        if (plugin.getConfig().getBoolean("Twitter")) {
             var config = plugin.getConfig();
             var name = config.getString("Name");
-            var yt = config.getString("Youtube-Link");
-            sender.sendMessage(ChatColor.RED + "Subscribe to " + ChatColor.WHITE + name + ChatColor.RED + " On YouTube over at: " + ChatColor.WHITE + yt + ChatColor.RED + "!");
+            var twitter = config.getString("Twitter-Link");
+            sender.sendMessage(ChatColor.AQUA + "Follow " + ChatColor.WHITE + name + ChatColor.AQUA + " On Twitter over at: " + ChatColor.WHITE + twitter + ChatColor.AQUA + "!");
 
-        } else {
+
+        }else{
+
             sender.sendMessage(ChatColor.RED + "This module is disabled! Ask a system administrator to enable this module in the Config.yml!");
-        }
 
+        }
         return true;
+
     }
 
 }

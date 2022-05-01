@@ -21,7 +21,7 @@ public class Twitch implements CommandExecutor {
             var config = plugin.getConfig();
             var name = config.getString("Name");
             var twitch = config.getString("Twitch-Link");
-            sender.sendMessage(ChatColor.DARK_PURPLE + "Follow " + ChatColor.WHITE + name + ChatColor.DARK_PURPLE + " On Twitch over at: " + ChatColor.WHITE + twitch + ChatColor.DARK_PURPLE + " ! ");
+            sender.sendMessage(ChatColor.DARK_PURPLE + "Follow " + ChatColor.WHITE + name + ChatColor.DARK_PURPLE + " On Twitch over at: " + ChatColor.WHITE + twitch + ChatColor.DARK_PURPLE + "!");
 
 
         }else{

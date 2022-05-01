@@ -1,3 +1,5 @@
+# Change once you edit this configuration file!
+Initial-Startup: true
 # Server Name
 # Changes what is shown whenever your players run one of the commands included in this plugin.
 Name: ''
@@ -6,8 +8,10 @@ Name: ''
 Youtube: true
 Twitch: true
 Discord: true
+Twitter: true
 # Configuration
 # Change the different modules of this plugin!
 Youtube-Link: ''
 Twitch-Link: ''
 Discord-Link: ''
+Twitter-Link: ''

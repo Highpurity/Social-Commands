@@ -22,7 +22,7 @@ public class Discord implements CommandExecutor {
             var config = plugin.getConfig();
             var name = config.getString("Name");
             var discord = config.getString("Discord-Link");
-            sender.sendMessage(ChatColor.BLUE + "Join the  " + ChatColor.WHITE + name + ChatColor.BLUE + " Discord Server over at: " + ChatColor.BLUE + discord + ChatColor.BLUE + " ! ");
+            sender.sendMessage(ChatColor.BLUE + "Join the  " + ChatColor.WHITE + name + ChatColor.BLUE + " Discord Server over at: " + ChatColor.WHITE + discord + ChatColor.BLUE + "!");
 
         } else {
             sender.sendMessage(ChatColor.RED + "This module is disabled! Ask a system administrator to enable this module in the Config.yml!");

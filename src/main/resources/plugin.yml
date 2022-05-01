@@ -23,5 +23,20 @@ commands:
     usage: /<command>
     permission: socialcmd.twitch
     permission-message: "\u00a74You lack the permissions to use this command!"
+  Discord:
+    description: Customizable command that shows your Discord Server!
+    usage: /<command>
+    permission: socialcmd.discord
+    permission-message: "\u00a74You lack the permissions to use this command!"
+  Twitter:
+    description: Customizable command that shows your Twitter Account!
+    usage: /<command>
+    permission: socialcmd.twitter
+    permission-message: "\u00a74You lack the permissions to use this command!"
+  Instagram:
+    description: Customizable command that shows your Instagram Profile!
+    usage: /<command>
+    permission: socialcmd.instagram
+    permission-message: "\u00a74You lack the permissions to use this command!"
 
 
